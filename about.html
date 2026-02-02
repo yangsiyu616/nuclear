@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NE Archive - About</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="images/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg">
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body class="about-page">
+
+  <script src="p5js/menu.js"></script>
+
+  <button class="back-btn" onclick="history.back()">Back</button>
+
+  <div class="about-tabs-wrap">
+    <div class="about-tabs">
+      <a href="#" class="about-tab" data-topic="dataset">About the Dataset</a>
+      <a href="#" class="about-tab" data-topic="us">About Us</a>
+    </div>
+  </div>
+  </div>
+
+
+  <main class="about-content">
+    <h1 class="about-title"></h1>
+
+    <div class="about-text-wrap"></div>
+
+    <div class="about-cta-row primary-cta"></div>
+
+    <div class="about-text-wrap review-text"></div>
+
+    <div class="about-cta-row secondary-cta"></div>
+
+    <div id="about-us-canvas"></div>
+    <div class="insight-top-fade" aria-hidden="true"></div>
+  </main>
+
+  <script src="p5js/aboutTabsNav.js"></script>
+  <footer id="about-footer" class="about-footer">
+
+    <div class="footer-row">
+
+      <div class="footer-block">
+        <p class="footer-title">Project by</p>
+        <ul class="footer-list no-bullets">
+          <li>Fang Ding</li>
+          <li>Giorgia Milani</li>
+          <li>Giovanni Palladino</li>
+          <li>Giulia Yoko Felton</li>
+          <li>Silvia La Mastra</li>
+          <li>Siyu Yang</li>
+          <li>Ziying Shao</li>
+        </ul>
+      </div>
+
+      <div class="footer-block">
+        <p class="footer-title">Faculty</p>
+        <ul class="footer-list no-bullets">
+          <li>Michele Mauri</li>
+          <li>Davide Conficconi</li>
+        </ul>
+
+        <p class="footer-title" style="margin-top: 18px;">Teaching Assistants</p>
+        <ul class="footer-list no-bullets">
+          <li>Alessandra Facchino</li>
+          <li>Alessandro Nazzari</li>
+        </ul>
+      </div>
+
+      <div class="footer-block footer-right-side">
+        <p class="footer-title">Computer Graphics Studio for Information Design</p>
+        <p class="footer-text">
+          A.Y. 2025/2026<br>
+          Bachelor’s Degree in Communication Design
+        </p>
+
+        <div class="footer-logos-row">
+          <img src="images/logo_polimi.svg" alt="Polimi logo" class="footer-logo">
+          <img src="images/densitydesignB.svg" alt="Density Design logo" class="footer-logo">
+          <img src="images/NECST_B.svg" alt="NECST logo" class="footer-logo">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        All content on this website is ©️2026 Fang Ding, Giorgia Milani, Giovanni Palladino, Giulia Yoko Felton, Silvia
+        La Mastra, Siyu Yang, Ziying Shao.
+        Any form of reuse is prohibited without prior written permission from the authors.
+        Contact: <a href="mailto:nuclearexplosionsarchive@gmail.com">nuclearexplosionsarchive@gmail.com</a>
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
